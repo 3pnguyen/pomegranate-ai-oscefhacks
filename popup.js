@@ -5,10 +5,17 @@ const buttonTwo = document.getElementById('button-two');
 const spacer = document.createElement('div');
 const logo = new Image(145, 145);
 
+const keyboardSound = new Audio("assets/creamy-keyboard-v7.mp3");
+
 function createLogo() {
     logo.src = 'assets/logo.png';
     logo.alt = 'logo';
+    logo.id = "logo"
     body.insertBefore(logo, buttonOne);
+    document.getElementById("logo").addEventListener('click', () => {
+        keyboardSound.currentTime = 0;
+        keyboardSound.play();
+    });
 }
 
 function createParagraph(text, fontSize = 16) {
