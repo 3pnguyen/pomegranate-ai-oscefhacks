@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pomegranate AI settings</title>
+<style>
+  body{font-family:system-ui,sans-serif;min-width:400px;margin:40px auto;padding:0 16px;color:#1d1d1f;background-color: rgb(255, 186, 186);}
+  h1{color: #c93434;font-size: 35px;}
+  label{display:block;margin:18px 0 6px;font-weight:600;font-size:14px;color: #c93434;}
+  input,textarea,select{width:100%;padding:8px;border:1px solid #c93434;border-radius:8px;font-size:14px;box-sizing:border-box}
+  textarea{min-height:90px;font-family:ui-monospace,monospace}
+  small{color:#000000}
+  button{margin-top:20px;padding:9px 16px;border:0;border-radius:8px;background:#c93434;color:#fff;font-size:14px;cursor:pointer}
+  button:hover{opacity: 0.9; transform: translateY(-1px);}
+  button:active{opacity: 1; transform: translateY(1px);}
+  img{height: 50px; width: 50px;}
+  div{display: flex}
+  #ok{margin-left:10px;color:#2a8a3a}
+</style>
+</head>
+<body>
+  <div>
+    <div><img src="assets/logo.png"></div>  
+    <div><h1>Pomegranate AI</h1></div>
+  </div>
+  <label for="key">OpenRouter API key</label>
+  <input id="key" type="password" placeholder="sk-or-..." autocomplete="off">
+  <small>Stored locally in this browser. Get one at openrouter.ai/keys.</small>
+
+  <label for="models">Models (one OpenRouter slug per line)</label>
+  <textarea id="models"></textarea>
+  <small>Pick ones that support images if you want screenshot explanations. Browse slugs at openrouter.ai/models.</small>
+
+  <label for="model">Default model</label>
+  <input id="model">
+
+  <label for="effort">Default thinking level</label>
+  <select id="effort">
+    <option value="off">Off</option><option value="low">Low</option>
+    <option value="medium">Medium</option><option value="high">High</option>
+  </select>
+
+  <p><small>Screenshot shortcut: default Alt+Shift+S. Change it at chrome://extensions/shortcuts.</small></p>
+  <button id="save">Save</button><span id="ok" hidden>Saved ✓</span>
+  <button id="back">Back</button>
+  <script src="options.js"></script>
+</body>
+</html>
