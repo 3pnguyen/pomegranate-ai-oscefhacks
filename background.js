@@ -37,7 +37,7 @@ chrome.commands.onCommand.addListener(async (command, tab) => {
     const dataUrl = await chrome.tabs.captureVisibleTab(tab.windowId, { format: "png" });
     await chrome.tabs.sendMessage(tab.id, { type: "start-snip", dataUrl });
   } catch (e) {
-    console.warn("Think First: capture failed (restricted page?)", e);
+    console.warn("Pomegranate AI: capture failed (restricted page?)", e);
   }
 });
 
@@ -84,7 +84,7 @@ async function stream(port, { messages, model, effort }, signal) {
       headers: {
         Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
-        "X-Title": "Think First",
+        "X-Title": "Pomegranate AI",
       },
       body: JSON.stringify(body),
     });

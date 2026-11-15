@@ -29,7 +29,8 @@
 
   <label for="models">Models (one OpenRouter slug per line)</label>
   <textarea id="models"></textarea>
-  <small>Pick ones that support images if you want screenshot explanations. Browse slugs at openrouter.ai/models.</small>
+  <small>Select free models at openrouter.ai/models, pick one that supports images if you want screenshot explanations.</small>
+  <small>Use openrouter BYOK (Bring Your Own Key) to access models directly using your own API key from Anthropic, OpenAI, Google, etc.</small>
 
   <label for="model">Default model</label>
   <input id="model">
@@ -40,7 +41,7 @@
     <option value="medium">Medium</option><option value="high">High</option>
   </select>
 
-  <p><small>Screenshot shortcut: default Alt+Shift+S. Change it at chrome://extensions/shortcuts.</small></p>
+  <p><small>Screenshot shortcut (Alt+Shift+S) found at: chrome://extensions/shortcuts.</small></p>
   <button id="save">Save</button><span id="ok" hidden>Saved ✓</span>
   <button id="back">Back</button>
   <script src="options.js"></script>

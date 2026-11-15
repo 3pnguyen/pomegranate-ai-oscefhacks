@@ -28,10 +28,6 @@ function clearPage() {
     logo.remove();
 }
 
-// function settingsPage() {
-    
-// }
-
 function authorsPage() {
     clearPage();
     createParagraph('Members:');
@@ -57,10 +53,6 @@ let currentPage = 'home';
 
 buttonOne.addEventListener('click', () => {
     if (currentPage === 'home') {
-        // settingsPage();
-        // currentPage = 'settings';
-        // buttonOne.innerHTML = 'Back ⇔';
-        // buttonTwo.innerHTML = '---';
         window.location.href = "options.html";
     } else if (currentPage === 'settings') {
         homePage();

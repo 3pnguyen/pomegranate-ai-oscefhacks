@@ -1,7 +1,7 @@
 const DEFAULTS = {
   apiKey: "",
-  models: ["anthropic/claude-sonnet-4.5", "openai/gpt-5-mini", "google/gemini-2.5-flash"],
-  model: "anthropic/claude-sonnet-4.5",
+  models: ["anthropic/claude-sonnet-5.5", "nvidia/nemotron-3-ultra-550b-a55b:free", "baidu/ernie-5.5-flash-preview:free"],
+  model: "anthropic/claude-sonnet-5.5",
   effort: "low",
 };
 const $ = (id) => document.getElementById(id);

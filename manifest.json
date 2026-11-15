@@ -2,7 +2,13 @@
   "manifest_version": 3,
   "name": "Pomegranate AI",
   "version": "0.1.0",
-  "description": "Ai as a tool to facilitate learning, not as a replacement.",
+  "icons" : {
+    "16": "assets/logo.png",
+    "32": "assets/logo.png",
+    "48": "assets/logo.png",
+    "128": "assets/logo.png"
+  },
+  "description": "Ai as a tool, not a replacement.",
   "author" : "POAI Team",
   "permissions": ["storage", "activeTab"],
   "host_permissions": ["https://openrouter.ai/*"],
@@ -16,7 +22,7 @@
   ],
   "options_page": "options.html",
   "action": { 
-    "default_title": "Think First settings",
+    "default_title": "Pomegranate AI settings",
     "default_popup": "popup.html"
   },
   "commands": {
