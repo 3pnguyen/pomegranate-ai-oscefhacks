@@ -57,6 +57,12 @@ const TF_PROMPTS = [
     "label": "Summarize this",
     "text": "Provide a concise summary of the highlighted text. Break it down into a single-sentence core takeaway, followed by 3-5 bullet points covering the most essential arguments, facts, or details. Strip away the fluff and focus on the absolute main ideas." 
   },
+  {
+    "id": "gen_explain",
+    "cat": "General",
+    "label": "Explain",
+    "text": "Explain the topic at the level you believe the topic is meant to be learned at. For example, DNA replication should be explained at the high school level, whereas things such as the quadratic formula can be explained at the middle school level."
+  },
   { 
     "id": "gen_simplify", 
     "cat": "General", 
@@ -99,7 +105,7 @@ const TF_PROMPTS = [
     "cat": "Diagram",
     "label": "What does this chart say?",
     "text": "Describe what this chart or graph shows: axes, trends, and the main takeaway. Note anything that could be misleading."
-  },
+  }
 ];
 
 // Curated follow-ups. Free typing is intentionally not offered (except the attempt box).

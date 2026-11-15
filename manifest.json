@@ -8,7 +8,7 @@
     "48": "assets/logo.png",
     "128": "assets/logo.png"
   },
-  "description": "Ai as a tool, not a replacement.",
+  "description": "AI can mix the colors, but only you can paint the masterpiece.",
   "author" : "POAI Team",
   "permissions": ["storage", "activeTab"],
   "host_permissions": ["https://openrouter.ai/*"],

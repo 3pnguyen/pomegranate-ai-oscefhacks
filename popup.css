@@ -23,6 +23,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: #c93434;
+    padding: 10px;
 }
 
 p {
@@ -36,7 +37,7 @@ p {
 
 /*--------------------------- IMAGE ---------------------------------*/
 
-img {
+#logo {
     justify-content: center;
     width: 145px;
     height: 145px;
@@ -49,14 +50,27 @@ img {
     -webkit-user-drag: none;
 }
 
-img:hover {
+#logo:hover {
     scale: 1.05;
     transform: translateY(-1px);
 }
 
-img:active {
+#logo:active {
     scale: 1.03;
     transform: translateY(1px);
+}
+
+#hacks {
+    justify-content: center;
+    width: 145px;
+    height: 145px;
+    margin: 5;
+    margin: 0 auto;
+    display: block;
+    align-self: center;
+    animation-duration: 1.25s;
+    -webkit-user-drag: none;
+    padding: 10px;
 }
 
 /*--------------------------- BUTTONS ---------------------------------*/
