@@ -1,8 +1,8 @@
 # pomegranate-ai
 
 <div align="center">
-  <div><img src="/assets/logo.png" width="500" /></div>
-  <div><img src="/assets/oscefhacks.png" width="500" /></div>
+  <div><img src="/assets/logo.png" width="250" /></div>
+  <div><img src="/assets/oscefhacks.png" width="250" /></div>
 </div>
 
 ## AI can mix the colors, but only you can paint the masterpiece.
@@ -20,39 +20,39 @@ Pomegranate AI is an extension that sits in your side bar. Clicking the little i
 In settings, the API key and models can be configured there. The Chrome API handles all of the storage so when you save and leave, they will remain when you come back.
 
 <div align="center">
-  <div><img src="/assets/display-images/extension-unpacked.PNG" width="700" /></div>
+  <div><img src="/assets/display-images/extension-unpacked.PNG" width="350" /></div>
   <div><p>Example of the extension when chrome://extensions</p></div>
 </div>
 
 <div align="center">
-  <div><img src="/assets/display-images/popup.PNG" width="700" /></div>
+  <div><img src="/assets/display-images/popup.PNG" width="350" /></div>
   <div><p>if you click the pomegranate it will make a click sound</p></div>
 </div>
 
 <div align="center">
-  <div><img src="/assets/display-images/settings.PNG" width="700" /></div>
+  <div><img src="/assets/display-images/settings.PNG" width="350" /></div>
   <div><p>In the settings menu, the API key, models, thinking level, can all be configured</p></div>
 </div>
 
 To use the AI, simply highlight or screenshot (Alt+Shift+S) to have the prompts appear. 
 
 <div align="center">
-  <div><img src="/assets/display-images/explain-button.PNG" width="700" /></div>
+  <div><img src="/assets/display-images/explain-button.PNG" width="350" /></div>
   <div><p>Little button popup that appears when highlighting</p></div>
 </div>
 
 <div align="center">
-  <div><img src="/assets/display-images/dropdown.PNG" width="700" /></div>
+  <div><img src="/assets/display-images/dropdown.PNG" width="350" /></div>
   <div><p>Not all of the different subjects are visible, there are enough to have to scroll!</p></div>
 </div>
 
 <div align="center">
-  <div><img src="assets/display-images/screenshotter.png" width="700" /></div>
+  <div><img src="assets/display-images/screenshotter.png" width="350" /></div>
   <div><p>Example of the screenshot function being used</p></div>
 </div>
 
 <div align="center">
-  <div><img src="/assets/display-images/ai-menu.PNG" width="700" /></div>
+  <div><img src="/assets/display-images/ai-menu.PNG" width="350" /></div>
   <div><p>Here, the explaination and follow up prompts are loaded here</p></div>
 </div>
 
@@ -77,5 +77,5 @@ Made with love ❤️❤️❤️❤️❤️ by
 * Troung Anh Quan Pham
 
 <div align="center">
-  <div><img src="/assets/oscefhacks.png" width="500" /></div>
+  <div><img src="/assets/oscefhacks.png" width="250" /></div>
 </div>
